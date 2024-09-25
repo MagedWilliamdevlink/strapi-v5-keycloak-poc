@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
             // OpenID Connect
             OIDC_REDIRECT_URI: 'http://localhost:1337/strapi-plugin-sso/oidc/callback', // URI after successful login
             OIDC_CLIENT_ID: 'strapicli',
-            OIDC_CLIENT_SECRET: 'FYCXK7EcRZp8oEaaz9BQiK4aiI7jnqpe',
+            OIDC_CLIENT_SECRET: '[Client Secret from OpenID Provider]',
 
             OIDC_SCOPES: 'openid profile email', // https://oauth.net/2/scope/
 
